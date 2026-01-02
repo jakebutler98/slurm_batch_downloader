@@ -1,0 +1,14 @@
+# Partial downloads
+*.part
+
+# Runtime status
+_download_status/
+
+# Slurm output logs
+wget_*.log
+slurm-*.out
+slurm-*.err
+
+# Editor / OS junk
+*~
+.DS_Store
