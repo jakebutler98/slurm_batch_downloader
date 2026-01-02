@@ -225,7 +225,7 @@ A helper script is included to report progress for in-progress `.tar.part` downl
 Run:
 
 ```bash
-./tools/download_progress.sh urls.txt
+./tools/download_progress.sh urls.txt /path/to/output
 ```
 ---
 ## Planning a download (recommended)
