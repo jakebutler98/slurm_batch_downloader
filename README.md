@@ -218,6 +218,17 @@ This script solves those problems.
 
 ---
 
+## Monitoring download progress
+
+A helper script is included to report progress for in-progress `.tar.part` downloads by comparing the local file size to the remote `Content-Length`.
+
+Run:
+
+```bash
+./tools/download_progress.sh urls.txt
+```
+---
+
 ## License
 
 MIT License — see the `LICENSE` file.
