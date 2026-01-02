@@ -228,6 +228,17 @@ Run:
 ./tools/download_progress.sh urls.txt
 ```
 ---
+## Planning a download (recommended)
+
+Before submitting Slurm jobs, you can preview how URLs will be mapped to
+local directories and estimate total disk usage.
+
+A helper script is provided:
+
+```bash
+./tools/plan_download.sh urls.txt /path/to/output
+```
+---
 
 ## License
 
